@@ -4,7 +4,7 @@ A toolkit for evaluating LLM jailbreak techniques with parallel processing.
 
 ## Jailbreak Performance Analysis
 
-![Jailbreak Performance Metrics](assets/jailbreak_metrics.png)
+![Jailbreak Performance Metrics](https://raw.githubusercontent.com/arthurdupe/quick_jailbreak_eval/main/assets/jailbreak_metrics.png)
 
 The analysis of different jailbreak techniques reveals interesting patterns in model behavior. Based on the metrics shown in the graph:
 
