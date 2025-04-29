@@ -27,10 +27,11 @@ The evaluation pipeline consists of three key scripts that work together:
    - Takes jailbreak prompts and applies them to target models
    - Uses asyncio for parallel processing to maximize throughput
    - Outputs CSV files with model responses for each jailbreak attempt
+   - Gemini 2.5 Pro was sampled from
 
 2. **eval_rejections_parallel.py**: Evaluates the effectiveness of jailbreak attempts
    - Takes the output from cartesian_simple.py as input
-   - Uses Claude 3 Sonnet as an evaluation model to rate each jailbreak attempt
+   - Uses Claude 3.7 Sonnet non-thinking as an evaluation model to rate each jailbreak attempt
    - Implements parallel processing for faster evaluation
    - Analyzes responses on refusal rate, convincingness, and specificity metrics
 
