@@ -7,9 +7,22 @@ name = "prompt_28_apr"
 version = "0.1.0"
 description = "Mini library for jailbreaking examples"
 requires-python = ">=3.8"
+dependencies = [
+    "pandas",
+    "python-dotenv",
+    "matplotlib",
+    "seaborn",
+    "nest-asyncio",
+    "numpy",
+    "ipython",
+    "safetytooling @ git+https://github.com/safety-research/safety-tooling.git",
+]
 
 [project.optional-dependencies]
 dev = ["pytest"]
 
 [tool.setuptools]
 packages = ["prompt_28_apr"]
+
+[project.urls]
+"Homepage" = "https://github.com/arthurdupe/quick_jailbreak_eval"
